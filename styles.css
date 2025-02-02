@@ -69,6 +69,10 @@ form {
   background-color: #83dabd;
 }
 
+.form__input:focus {
+  background-color: #83dabd;
+}
+
 button {
   background-color: aqua;
   width: 100px;
