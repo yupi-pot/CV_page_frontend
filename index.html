@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>CV Page</title>
+  </head>
+  <body>
+    <header class="header">
+      <img src="/img/photo.png" alt="avatar" class="avatar" />
+      <h1 class="header__title">Yura Potapov | CV</h1>
+      <h2 class="header__subtitle">Frontend Developer</h2>
+    </header>
+
+    <main class="main">
+      <section class="skills">
+        <h3>Skills:</h3>
+        <details>
+          <summary>Skills list:</summary>
+
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>TypeScript</li>
+          </ul>
+        </details>
+      </section>
+
+      <article class="about-me">
+        <h4>Short article about me</h4>
+        <p class="about-me__text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+          excepturi rerum blanditiis, illum modi unde fuga reiciendis voluptas
+          amet ad temporibus architecto suscipit minus, possimus iste in cum
+          accusamus corporis, natus dolorum doloribus obcaecati consequuntur
+          corrupti. Dolore nam impedit blanditiis incidunt. Quaerat facere
+          incidunt dolores, minus in quas tenetur ex!
+        </p>
+      </article>
+
+      <section class="gallery">
+        <h3>Gallery:</h3>
+        <img
+          src="https://placehold.co/250x250"
+          alt="gallery photo 1"
+          class="gallery__img"
+        />
+        <img
+          src="https://placehold.co/250x250"
+          alt="gallery photo 2"
+          class="gallery__img"
+        />
+        <img
+          src="https://placehold.co/250x250"
+          alt="gallery photo 3"
+          class="gallery__img"
+        />
+      </section>
+
+      <hr class="separator" />
+
+      <section class="video">
+        <iframe
+          src="https://www.youtube.com/embed/Gkp81PjgYDI"
+          title="ГЛЕБ ИГРАЕТ В ХОРРОР Kiosk / ХОТ-ДОГ ДЛЯ ЭВЕЛОНА | Sasavot"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </section>
+
+      <section class="hobbies">
+        <h3>My hobbies:</h3>
+        <details>
+          <summary>Hobbies:</summary>
+
+          <ol>
+            <li>Sport</li>
+            <li>Coding</li>
+            <li>Games</li>
+            <li>Learn</li>
+            <li>Movies</li>
+          </ol>
+        </details>
+      </section>
+
+      <hr class="separator" />
+
+      <section class="ed">
+        <table class="ed__table">
+          <thead>
+            <tr>
+              <th>School / University</th>
+              <th>Profession</th>
+              <th>Year</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>IT School 1</td>
+              <td>HTML/CSS/JavaSCript</td>
+              <td>2024</td>
+            </tr>
+            <tr>
+              <td>IT School 2</td>
+              <td>React/TypeScript</td>
+              <td>2025</td>
+            </tr>
+            <tr>
+              <td>IT School 3</td>
+              <td>Linux OS</td>
+              <td>2026</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="quote">
+        <blockquote>Чем больше сила, тем больше ответственность</blockquote>
+      </section>
+
+      <section class="interactive">
+        <form action="https://ya.ru" method="get" target="_blank">
+          <fieldset>
+            <legend>Ask me:</legend>
+
+            <label for="firstName-id">First Name:</label>
+            <input
+              type="text"
+              id="firstName-id"
+              name="firstName"
+              class="form__input"
+            />
+
+            <label for="lastName-id">Last Name: </label>
+            <input
+              type="text"
+              name="lastName"
+              id="lastName-id"
+              class="form__input"
+            />
+
+            <label for="email-id">Email: </label>
+            <input
+              type="email"
+              name="email"
+              id="email-id"
+              class="form__input"
+            />
+
+            <label for="ask-id">Ask me: </label>
+            <textarea
+              name="question"
+              id="ask-id"
+              cols="30"
+              rows="10"
+              placeholder="Type anything"
+              class="form__input textarea"
+            ></textarea>
+
+            <button type="submit">Submit</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <hr class="separator" />
+
+    <footer class="footer">
+      <address>
+        <a href="mailto:potapov98@icloud.com" class="contact__link"
+          >potapov98@icloud.com</a
+        >
+        <br /><br />
+        <a href="rel:+79622744299" class="contact__link">+79622744299</a>
+      </address>
+    </footer>
+  </body>
+</html>
