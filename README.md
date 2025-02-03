@@ -9,7 +9,7 @@
   3. three
 ```
 
-[CV page repository](https://github.com/yupi-pot/CV_page_frontend.git)
+[CV page repository](yupi-pot.github.io/CV_page_frontend/)
 
 
 ![image](/img/photo.png)
